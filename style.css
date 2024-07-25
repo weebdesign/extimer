@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    border: none;
+    font-style: italic;
+    font-family: Arial,  sans-serif;
+    background-color: rgba(255, 255, 255, 0.905);
+}
+.container{
+    width: 500px;
+    margin: 5rem auto;
+    text-align: center;
+}
+#counter{
+    font-size: 30px;
+    font-weight: bold;
+   color: black;
+    margin-bottom: 3rem;
+}
+button{
+    font-size: 20px;
+    margin: 0.7rem;
+  
+    padding: .5rem 2rem;
+    background-color:#e1dede6d;
+    color: black;
+    border-radius: 6px;
+    box-shadow: 0px 1px 3px 0px;
+     border: 1px solid gray; 
+    
+}
+button:hover{
+    background-color:white;
+
+}
+
+
+
+button:disabled{
+    opacity: .5;
+    cursor: not-allowed;
+}
+#timer{
+    font-size: 32px;
+    margin-bottom: 1rem;
+    color: black;
+}
