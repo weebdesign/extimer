@@ -47,7 +47,7 @@ const startTimer=(duration)=>{
 
 const stopTimer =()=>{
     clearInterval(timerInterval);
-    timerDisplay.textContent='Breat In'
+    timerDisplay.textContent='Breath In'
     isRunning=false;
 
 }
