@@ -7,6 +7,20 @@
     font-family: Arial,  sans-serif;
     background-color: rgba(255, 255, 255, 0.905);
 }
+.timerMain{
+    width: 350px;
+    margin: auto;
+    /* padding: 6rem 1rem; */
+    
+
+}
+.container{
+    width: 320px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 6px 2px;
+    padding: 2rem 1rem;
+
+}
 .container{
     width: 500px;
     margin: 5rem auto;
