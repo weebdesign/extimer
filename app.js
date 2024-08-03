@@ -22,6 +22,10 @@ const startTimer=(duration)=>{
    
      secound < 6 ? timerDisplay.style.color="red ": secound;
      secound > 6 ? timerDisplay.style.color="black ": secound;
+        secound == 20 ?  playAudio(): secound;
+        secound == 10?  playAudio(): secound;
+        secound == 0 ?  playAudio(): secound;
+       
 
     timerDisplay.textContent=displayMinute+':'+displaySecond;
     if(--timer <0){
@@ -30,6 +34,7 @@ const startTimer=(duration)=>{
         setTimeout(() => {
             startTimer(timeLeft);
              timerDisplay.textContent='Breath In'
+            playAudioTwo()
             
         },5000);
     }
@@ -68,6 +73,16 @@ startBtn.addEventListener("click",function(){
 stopBtn.addEventListener("click",function(){
     stopTimer();
     isRunning=false;
+    const audio=document.getElementById('audio');
+const audioTwo=document.getElementById('audioTwo');
+
+function playAudio(){
+    audio.play()
+}
+
+function playAudioTwo(){
+    audioTwo.play()
+}
   
 });
 
