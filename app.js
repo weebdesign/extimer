@@ -27,7 +27,7 @@ const startTimer=(duration)=>{
       
         secound == 20 ?  playAudio(): secound;
         secound == 10?  playAudio(): secound;
-        secound == 10 ?  playAudio(): secound;
+        secound == 0 ?  playAudio(): secound;
        
         
     }
