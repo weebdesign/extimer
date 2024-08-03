@@ -23,11 +23,11 @@ const startTimer=(duration)=>{
     // change color
    
     function changeOrage(){
-        secound < 6 ? timerDisplay.style.color="red": secound;
+        // secound < 6 ? timerDisplay.style.color="red": secound;
       
-        secound == 21 ?  playAudio(): secound;
-        secound == 11?  playAudio(): secound;
-        secound == 1 ?  playAudio(): secound;
+        secound == 20 ?  playAudio(): secound;
+        secound == 10?  playAudio(): secound;
+        secound == 10 ?  playAudio(): secound;
        
         
     }
