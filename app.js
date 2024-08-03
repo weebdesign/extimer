@@ -22,10 +22,15 @@ const startTimer=(duration)=>{
    
      secound < 6 ? timerDisplay.style.color="red ": secound;
      secound > 6 ? timerDisplay.style.color="black ": secound;
+        function changeOrage(){
+        secound < 11 ? timerDisplay.style.color="yellow": secound;
+      
         secound == 20 ?  playAudio(): secound;
         secound == 10?  playAudio(): secound;
         secound == 0 ?  playAudio(): secound;
        
+        
+    }
 
     timerDisplay.textContent=displayMinute+':'+displaySecond;
     if(--timer <0){
