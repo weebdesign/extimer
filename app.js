@@ -25,9 +25,9 @@ const startTimer=(duration)=>{
     function changeOrage(){
         secound < 6 ? timerDisplay.style.color="red": secound;
       
-        secound == 20 ?  playAudio(): secound;
-        secound == 10?  playAudio(): secound;
-        secound == 0 ?  playAudio(): secound;
+        secound == 21 ?  playAudio(): secound;
+        secound == 11?  playAudio(): secound;
+        secound == 1 ?  playAudio(): secound;
        
         
     }
